@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/btnmultiplayer"
+        android:layout_width="210dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="101dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/multi"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:text="Input Players"
+        android:textSize="30dp"/>
+
+    <EditText
+
+        android:id="@+id/textplayer1"
+        android:hint="Player1"
+        android:paddingLeft="20dp"
+        android:layout_width="200dp"
+        android:height="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_background"
+        />
+    <EditText
+        android:id="@+id/textplayer2"
+        android:hint="Player2"
+        android:paddingLeft="20dp"
+        android:layout_width="200dp"
+        android:height="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_background"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnstart"
+        android:text="Start"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+
+        />
+
+
+</LinearLayout>
